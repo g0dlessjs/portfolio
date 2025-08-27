@@ -1,3 +1,4 @@
+import Button from "../components/Button";
 import { words } from "../constants";
 
 const Hero = () => {
@@ -38,6 +39,11 @@ const Hero = () => {
             <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
               Hi, I'm Juan, a developer based in Chile with passion for code.
             </p>
+            <Button
+              className="md:w-80 md:h-16 w-60 h-12"
+              id="button"
+              text="See my Work"
+            />
           </div>
         </header>
         {/* RIGHT: 3D MODEL*/}
